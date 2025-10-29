@@ -112,7 +112,7 @@ public class ListaOrdenada {
 
         System.out.println("vetor gerado:");
         for (int i = 0; i < vetor.length; i++) {
-            vetor[i] = gerador.nextInt(19999) - 9999; // -9999 a 9999
+            vetor[i] = gerador.nextInt(19999) - 9999; 
             System.out.print(vetor[i] + (i < vetor.length - 1 ? ", " : ""));
         }
 
